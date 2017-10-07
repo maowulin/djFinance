@@ -1,0 +1,457 @@
+
+.body {
+	min-width: 1200px;
+}
+
+.head {
+	width: 100%;
+	height: 80px;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	background: #2c2f40;
+	z-index: 999;
+}
+
+.logo {
+	float: left;
+	width: 250px;
+	margin-left: 5px;
+}
+
+.logo img {
+	height: 60px;
+}
+
+.menu {
+	margin-left: 250px;
+	margin-right: 0;
+	height: 60px;
+}
+
+.menu ul {
+	
+	text-align: right;
+	padding: 18px;
+}
+
+.menu ul li {
+	
+	display: inline-block;
+	color: #ffd860;
+	font-size: 18px;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+.underlineDown:after {
+	height: 4px;
+    background: #ffd860;
+}
+
+.page {
+	margin-top: 80px;
+}
+
+.business {
+	overflow: hidden;
+	height: 635px;
+	position: relative;
+	margin-top: 80px;
+	background: url('/images/wuye_xitongbg.jpg') center no-repeat;
+	background-size: cover;
+}
+
+.bus_panel {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 300%;
+	height: 635px;
+}
+
+.one_stop {
+	float: left;
+	width: 33.3%;
+	height: 100%;
+	padding-top: 175px;
+}
+
+.busi_menu {
+	float: left;
+	width: 33.3%;
+	height: 100%;
+}
+
+.image_show {
+	float: left;
+	width: 33.3%;
+	height: 100%;
+}
+
+.bus_point {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 50px;
+}
+
+.bus_point ul {
+	text-align: center;
+}
+
+.bus_point ul li {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+	border-radius: 50%;
+	border: 1px solid #2c2f40;
+	cursor: pointer;
+}
+
+.bus_point ul .point_current {
+	border: 1px solid #ffd860;
+	background: #ffd860;
+}
+
+.title {
+	text-align: center;
+}
+
+.title h1 {
+	font-size: 70px;
+	color: #2c2f40;
+	font-weight: 500;
+}
+
+.title_hit {
+	margin-top: 10px;
+	font-size: 18px ;
+	color: #2c2f40;
+}
+
+.title a {
+    display: inline-block;
+    margin: 30px 10px 0 10px;
+    padding: 5px 30px;
+    border: solid 1px #2c2f40;
+    color: #2c2f40;
+}
+
+.title a:hover {
+	background: #2c2f40;
+	border: none;
+	color: #ffd860;
+}
+
+.busi_menu ul {
+	/*border: 1px solid black;*/
+	position: relative;
+	width: 1040px;
+	height: 635px;
+}
+
+.busi_menu ul li{
+	position: absolute;
+	width: 99px;
+	height: 145px;
+	background: #968350;
+	margin: 0.5px;
+	/*transform: rotateX(20deg) rotateY(20deg);
+	-webkit-transform: rotateX(20deg), rotateY(20deg);
+	-moz-transform: rotateX(20deg), rotateY(20deg);*/
+}
+
+.business ul li:hover {
+   
+}
+
+.business ul li a {
+	position: relative;
+	display: block;
+	height: 100%;
+	padding: 10px 0;
+	margin: 0 auto;
+	line-height: 59px;
+}
+
+.business ul li a::before {
+	position: absolute;
+	top: 0;
+    left: -122px;
+    content: "";
+    border-width: 72.5px 50.5px 72.5px 72.5px;
+	border-style: solid;
+	border-color: transparent #968350 transparent transparent;
+	
+}
+
+.business ul li a::after {
+	position: absolute;
+	top: 0;
+    left: 99px;
+    content: "";
+    border-width: 72.5px 72.5px 72.5px 50.5px;
+	border-style: solid;
+	border-color: transparent  transparent transparent #968350;
+	
+}
+
+/*六边形效果定位*/
+/*工商注册*/
+.en_rigester {
+    top: 227px;
+    left: -99px;
+}
+/*代理记账*/
+.agency {
+    top: 300px;
+    left: 51px;
+}
+/*财税筹划*/
+.financial {
+    top: 154px;
+    left: 51px;
+}
+/*法律服务*/
+.legal {
+    top: 154px;
+    left: 651px
+}
+/*社保代理*/
+.se_agen {
+    top: 373px;
+    left: 501px;
+}
+/*商标注册*/
+.trade_regis {
+    top: 300px;
+    left: 651px;
+}
+/*知识产权*/
+.intell {
+    top: 81px;
+    left: 501px;
+}
+/*品牌推广*/
+.brand_prom {
+    top: 154px;
+    left: 351px;
+}
+/*网站建设*/
+.website_constru {
+	top: 373px;
+    left: 801px;
+    
+}
+/*微信开发*/
+.wechat_dev {
+    top: 81px;
+    left: 801px;
+}
+/*软件开发*/
+.soft_dev {
+	top: 154px;
+    left: 951px;
+    
+}
+/*APP开发*/
+.app_dev {
+	top: 300px;
+    left: 951px;
+    
+}
+/*广告宣传*/
+.adver {
+	top: 373px;
+    left: 201px;
+}
+/*摄影摄像*/
+.shoot {
+    top: 81px;
+    left: 201px;
+}
+/*人力资源*/
+.mapower {
+    top: 300px;
+    left: 351px;
+}
+
+.image1 {
+    top: 227px;
+    left: 801px;
+}
+
+.image2 {
+    top: 227px;
+    left: 501px;
+}
+
+.image3 {
+    top: 227px;
+    left: 201px;
+}
+
+.image4 {
+	top: 227px;
+    left: 1101px;
+    
+}
+
+.bus_icon {
+	display: block;
+	width: 70px;
+	height: 70px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+
+.bus_text {
+	display: block;
+	font-size: 35px;
+	color: #ffd860;
+	text-align: center;
+}
+
+/*企业优势*/
+.enter_ad {
+	width: 100%;
+	height: 467px;
+	padding-top: 50px;
+	background: #2c2f40;
+}
+
+.container {
+	width: 96%;
+	max-width: 1200px;
+	height: 417px;
+}
+
+.title h3{
+	font-size: 35px;
+	color: white;
+	text-align: center;
+	font-weight: 500;
+}
+
+.en_item {
+	width: 100%;
+	height: 365px;
+}
+
+.en_group {
+	float: left;
+	width: 333px;
+	height: 67px;
+    margin: 45px 33px;
+    color: white;
+}
+
+.en_group img {
+	float: left;
+	width: 66px;
+	height: 66px;
+}
+
+.gr_right {
+	float: left;
+	padding-left: 50px;
+}
+
+.brief_title {
+	font-size: 18px;
+}
+
+.brief_text {
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+/*联系我们*/
+.contact_us {
+    padding: 90px 0;
+    height: 465px;
+    background: url('/images/033.jpg') center top repeat;
+    text-align: center;
+}
+
+.cont {
+	width: 1200px;
+	height: 100%;
+}
+
+.cont h3 {
+	font-size: 36px;
+	color: white;
+	font-weight: 500;
+}
+
+.cont img {
+	width: 200px;
+	height: 200px;
+	margin-top: 50px;
+	
+}
+
+/*底部样式*/
+.footer {
+	background: url('/images/0371.jpg') center no-repeat;
+}
+
+.foot_cont {
+	width: 1200px;
+    height: 390px;
+    padding: 50px 0;
+}
+
+.server {
+    color: #D9D9DA;
+    font-size: 30px;
+    text-align: center;
+}
+
+.foot_item {
+	margin-top: 33px;
+	min-height: 106px;
+
+}
+
+.foot_group {
+	float: left;
+	width: 241px;
+	height: 106px;
+	margin: 0 79px;
+}
+
+.footer_cotact_title {
+	color: #D9D9DA;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.foot_group ul li:nth-child(1) p {
+	height: 42px;
+}
+
+.foot_group ul li:nth-child(2) {
+	margin-top: 5px;
+}
+
+.copyright {
+   
+   	height: 30px;
+    padding: 8px 10px;
+    color: #8a8a8a;
+    background: #000;
+    font-size: 12px;
+    text-align: center;
+}
+
+.copyright a {
+	color: #333;
+	margin-left: 5px;
+}
+

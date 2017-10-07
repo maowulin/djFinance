@@ -1,0 +1,43 @@
+
+.head {
+	width: 100%;
+	height: 50px;
+	
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.content {
+	width: 100%;
+	
+	position: absolute;
+	top: 50px;
+	bottom: 0;
+}
+
+.menu {
+	float: left;
+	width: 470px;
+	height: 100%;
+}
+
+.context {
+	height: 100%;
+	margin-left: 470px;
+	margin-right: 0px;
+}
+
+.act_item {
+	float: left;
+	width: 70px;
+	height: 100%;
+	background-color: #282d36;
+	
+}
+
+.action {
+	float: right;
+	width: 400px;
+	height: 100%;
+}

@@ -1,0 +1,79 @@
+
+.current_posi {
+	width: 100%;
+	height: 60px;
+	padding: 25px 0 0 300px;
+	margin-top: 0;
+	background: #2c2f40;
+}
+
+.current_posi a {
+	color: #ffd860;
+}
+
+.bard {
+	padding-top: 10px;
+	background: url('/images/barand_bg.jpg');
+	background-size: cover;
+}
+
+.brand_case {
+	width: 1200px;
+	text-align: center;
+	
+}
+
+.barand_group {
+	position: relative;
+	display: inline-block;
+	width: 152px;
+    height: 240px;
+	margin: 15px;
+	border: 2px solid #2c2f40;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.barand_group div{
+	overflow: hidden;
+    width: 100%;
+    height: 100%;
+    /*background: url('../vi/VI.jpg');*/
+    /*background-size: cover;*/
+}
+
+.barand_group span {
+	display: inline-block;
+	width: 100%;
+	height: 60px;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	font-size: 18px;
+    color: #d0d0dc;
+    line-height: 60px;
+	
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	
+}
+
+.barand_group img {
+	width: 100%;
+	height: 100%;
+}
+
+/*弹出层*/
+.bard_popups {
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	text-align: center;
+}
+
+.bard_popups img {
+	
+}
+
+.title h3 {
+	color: white;
+}

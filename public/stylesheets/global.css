@@ -1,0 +1,167 @@
+body,div,span,dl,dd,h1,h2,h3,h4,h5,h6,p,form,ul,ol,input{
+	margin:0 auto;
+	padding:0;
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+}
+body{
+	height: 100%;
+	color:#666;
+	font: 14px/1.5 "Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+	position: relative;
+}
+
+/*
+ * section 默认效果
+ */
+
+section {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 1;
+	transition: all 300ms linear;
+}
+
+/*
+ * 标签属性
+ * @overlay select
+ * @desc 默认设置select效果
+ */
+select{
+	font-size:14px;
+	outline:none;
+	color:#666;
+}
+/*
+ * 标签属性
+ * @overlay textarea
+ * @desc 默认设置textarea效果
+ */
+textarea,input {
+	color:#666;
+	font-size:14px;
+	word-wrap:break-word;
+	word-break:break-all;
+	box-sizing: border-box;
+	outline:none;
+	font-family: "宋体";
+}
+
+/*
+ * 标签属性
+ * @overlay input
+ * @desc 去掉IE10文本框上的清除按钮
+ */
+input::-ms-clear{display:none;}
+input[type='text'],input[type='password']{
+	/*color:#666;*/
+	/*border:1px solid #ccc;*/
+}
+input[type='buttom']{
+	border:none;
+}
+/*
+ * 标签属性
+ * @overlay table td th
+ * @desc 强制输入时内容超出时换行
+ */
+table {
+	width:100%;
+	border-collapse:collapse;
+}
+td,th{font-size:12px;}
+/*
+ * 清除列表标记的样式
+ * @overlay  ul,ol,li
+ * @desc ul,ol,li列表更多的用在不需要列表前置符号的样式里
+ */	
+ul,ol{list-style-type:none;}
+/*
+ * 定义图片边框
+ * @overlay img
+ * @desc 去除边框及图片底产无缘无故多出3px
+ */
+img{
+	border:none;
+	vertical-align: top;
+	-ms-interpolation-mode: bicubic;
+}	
+/*
+ * 定义默认的链接样式
+ * @overlay a
+ * @desc	仅仅是作为默认样式提供，可以在各自的实例中覆盖掉
+ */
+
+a{
+	/*color: #666;*/
+	text-decoration:none;
+	outline: none;
+}
+a:hover{
+	text-decoration:none;
+}
+a:active,a:focus {
+	outline: none;
+}
+/* 去掉链接的虚线框*/
+
+/*
+ * 定义H系列标签
+ * @overlay HN
+ * @desc  覆盖H系列标签默认属性
+ */
+h1{font-size:28px;}
+h2{font-size:25px;}
+h3{font-size:22px;}
+h4{font-size:20px;}
+h5{font-size:18px;}
+h6{font-size:14px;}
+/*
+ * 定义其他标签
+ * @overlay em,i,b,strong
+ */
+dfn,em,i,b,strong {
+	font-style:normal;
+	font-weight:normal;
+}
+.line {
+	display: block;
+	width: 100%;
+	font-size: 0;
+	height: 0px;
+	line-height: 0px;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #FFFFFF;
+}
+/* @Global 常用标签_@end */
+
+/* @group 通用属性定义_@Start */
+/*  鼠标样式 */
+.pointer{cursor:pointer;}
+/*
+ * 字母和单词换行设置
+ * @class Break 强制内容换行
+ * @class Nobreak 强制内容不换行
+ */
+.Break{word-break:break-all;word-wrap:break-word;}
+.Nobreak{word-break:keep-all;word-wrap:normal;}
+/*
+ * 浮动定义
+ */
+.fl{float:left;}
+.fr{float:right;}
+
+/* @group 通用属性定义_@end */
+
+/* @group 隐藏元素_@Start */
+.o-hidden{overflow:hidden;}
+.invisible{visibility:hidden;}
+.hidden{display: none;}
+.block {display:block;}
+/* @group 隐藏元素_@end */

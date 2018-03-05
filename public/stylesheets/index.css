@@ -299,6 +299,50 @@
     
 }
 
+.busi_menu ul .index-img-1 {
+	top: 227px;
+    left: 752px;
+    background: transparent;
+}
+
+.index-img-1 img {
+	width: 198px;
+    height: 145px;
+}
+
+.busi_menu ul .index-img-2 {
+	top: 227px;
+	left: 452px;
+	background: transparent;
+}
+
+.index-img-2 img {
+	width: 198px;
+    height: 145px;
+}
+
+.busi_menu ul .index-img-3 {
+	top: 227px;
+    left: 151px;
+    background: transparent;
+}
+
+.index-img-3 img {
+	width: 198px;
+    height: 145px;
+}
+
+.busi_menu ul .index-img-4 {
+	top: 227px;
+    left: 1053px;
+    background: transparent;
+}
+
+.index-img-4 img {
+	width: 198px;
+    height: 145px;
+}
+
 .bus_icon {
 	display: block;
 	width: 70px;

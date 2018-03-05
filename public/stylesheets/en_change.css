@@ -1,0 +1,13 @@
+.reg_enter {
+  height: auto;
+}
+
+.reg_image {
+  margin: 0 auto;
+  display: inherit;
+}
+
+.reg_group img {
+  width: 66px;
+  height: 66px;
+}

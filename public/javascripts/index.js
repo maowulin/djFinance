@@ -28,7 +28,7 @@ $(function(){
 	});
 	
 	//轮播 效果
-	b1();
+	// b1();
 	function b1(){
 		$(".bus_panel").delay(3000).animate({
 			left : "-100%"
